@@ -3,7 +3,7 @@
 <p align="center">Simple Grace period Plugin.</p>
 
 <p align="center">
-  <a href="https://modrinth.com"><img src="icons/modrinth.png" alt="Modrinth" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://spigotmc.org"><img src="icons/domain.png" alt="SpigotMC" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://github.com"><img src="icons/github.png" alt="Latest Release" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a>
+  <a href="https://modrinth.com/plugin/grace"><img src="icons/modrinth.png" alt="Modrinth" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://www.spigotmc.org/resources/grace.137735/"><img src="icons/domain.png" alt="SpigotMC" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://github.com/larpilz/grace/releases/tag/release"><img src="icons/github.png" alt="Latest Release" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a>
 </p>
 <p align="center">
   </a>
