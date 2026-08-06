@@ -1,22 +1,15 @@
-# Grace Period
+<h1 align="center">Grace Period</h1>
 
-Simple no-PvP grace period plugin for Paper. Start it with a command, a countdown
-bossbar shows up for everyone, and nobody can hurt each other until it runs out.
+<p align="center">Simple Grace period Plugin.</p>
 
-<p>
-  <a href="https://modrinth.com/plugin/grace/">
-    <img src="https://img.shields.io/modrinth/dt/grace?logo=modrinth&label=Modrinth&color=00AF5C" alt="Modrinth Downloads">
-  </a>
-  <a href="https://www.spigotmc.org/resources/grace.137735/">
-    <img src="https://img.shields.io/spiget/downloads/grace.137735?logo=spigotmc&label=SpigotMC&color=ED8106" alt="SpigotMC Downloads">
-  </a>
-  <a href="https://github.com/larpilz/grace/releases">
-    <img src="https://img.shields.io/github/v/release/larpilz/grace?label=release" alt="Latest Release">
+<p align="center">
+  <a href="https://modrinth.com"><img src="icons/modrinth.png" alt="Modrinth" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://spigotmc.org"><img src="icons/domain.png" alt="SpigotMC" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://github.com"><img src="icons/github.png" alt="Latest Release" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a>
+</p>
+<p align="center">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   </a>
-</p>
 
 ---
 
@@ -38,14 +31,14 @@ bossbar shows up for everyone, and nobody can hurt each other until it runs out.
 | `/grace stop` | Ends it early |
 | `/grace status` | Shows time remaining |
 
-Aliases: `/gp`, `/graceperiod`
-Permission: `graceperiod.admin` (defaults to op)
+**Aliases:** `/gp`, `/graceperiod`  
+**Permission:** `graceperiod.admin` (defaults to op)
 
 Accepted time formats: plain seconds (`90`), or a mix of `h`/`m`/`s` (`1h30m`, `45s`, `5m`).
 
 ## Installation
 
-1. Grab the jar from [Modrinth](https://modrinth.com/plugin/grace), [SpigotMC](https://www.spigotmc.org/resources/grace.137735/), or the [Releases page](https://github.com/larpilz/grace/releases)
+1. Grab the jar from [Modrinth](https://modrinth.com), [SpigotMC](https://spigotmc.org), or the [Releases page](https://github.com)
 2. Drop it in your server's `plugins/` folder
 3. Restart the server
 
@@ -54,7 +47,7 @@ Requires Paper (or a Paper fork) 1.21.x and Java 21+.
 ## Building from source
 
 ```bash
-git clone https://github.com/larpilz/grace.git
+git clone https://github.com
 cd grace
 mvn package
 ```
@@ -63,8 +56,7 @@ The built jar will be at `target/grace-1.0.0.jar`.
 
 ## Contributing
 
-Issues and PRs are welcome. If you're adding a feature, open an issue first so we're on
-the same page before you put the work in.
+Issues and PRs are welcome. If you're adding a feature, open an issue first so we're on the same page before you put the work in.
 
 ## License
 
