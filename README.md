@@ -1,4 +1,5 @@
-<h1 align="center">Grace Period</h1>
+<h1 align="center"><img src="icons/New Project (39).png" alt="Grace" width="350" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></h1> 
+
 
 <p align="center">Simple Grace period Plugin.</p>
 
