@@ -1,64 +1,83 @@
-<h1 align="center"><img src="icons/New Project (39).png" alt="Grace" width="350" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></h1> 
+<div align="center">
 
+<img src="icons/New Project (39).png" alt="Grace" width="420">
 
-<p align="center">Simple Grace period Plugin.</p>
+### Simple grace periods for Minecraft servers.
 
-<p align="center">
-  <a href="https://modrinth.com/plugin/grace"><img src="icons/modrinth.png" alt="Modrinth" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://www.spigotmc.org/resources/grace.137735/"><img src="icons/domain.png" alt="SpigotMC" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a><a href="https://github.com/larpilz/grace/releases/tag/release"><img src="icons/github.png" alt="Latest Release" width="50" style="image-rendering: pixelated; display: inline-block; vertical-align: middle;"></a>
-</p>
-<p align="center">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-  </a>
+<a href="https://modrinth.com/plugin/grace">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.3.1/assets/cozy/available/modrinth_64h.png" alt="Modrinth" height="56">
+</a>
+<a href="https://www.spigotmc.org/resources/grace.137735/">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.3.1/assets/cozy/available/spigot_64h.png" alt="SpigotMC" height="56">
+</a>
+<a href="https://github.com/arkhamology/grace/releases">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.3.1/assets/cozy/available/github_64h.png" alt="GitHub" height="56">
+</a>
+
+</div>
 
 ---
 
-## What it does
+Grace is a small Paper plugin for running grace periods.
 
-- **Bossbar countdown** at the top of the screen, color shifts green → yellow → red as it runs down
-- **No PvP** while it's active — blocks melee *and* projectiles (arrows, tridents, snowballs, etc.)
-- **Custom duration** — `30s`, `5m`, `1h30m`, whatever format you like
-- **Pause / resume** the timer without losing progress
-- **Start and end sounds** so people actually notice when it kicks in or wears off
+Start a timer and PvP is disabled until it runs out. Everyone gets a bossbar showing how much time is left, and you can pause or stop it whenever you need to.
+
+## Features
+
+- Bossbar countdown
+- Green → yellow → red timer
+- Blocks melee and projectile PvP
+- Custom durations like `30s`, `10m`, `1h30m`
+- Pause and resume support
+- Start and end sounds
 
 ## Commands
 
-| Command | What it does |
+| Command | |
 |---|---|
-| `/grace start <time>` | Starts a grace period, e.g. `/grace start 10m` |
-| `/grace pause` | Freezes the timer where it is |
-| `/grace resume` | Picks the timer back up |
-| `/grace stop` | Ends it early |
-| `/grace status` | Shows time remaining |
+| `/grace start <time>` | Start grace |
+| `/grace pause` | Pause the timer |
+| `/grace resume` | Resume it |
+| `/grace stop` | End grace early |
+| `/grace status` | Check remaining time |
 
 **Aliases:** `/gp`, `/graceperiod`  
-**Permission:** `graceperiod.admin` (defaults to op)
+**Permission:** `graceperiod.admin`
 
-Accepted time formats: plain seconds (`90`), or a mix of `h`/`m`/`s` (`1h30m`, `45s`, `5m`).
+## Support
 
-## Installation
+<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.3.1/assets/cozy/supported/paper_64h.png" alt="Paper" height="56">
 
-1. Grab the jar from [Modrinth](https://modrinth.com), [SpigotMC](https://spigotmc.org), or the [Releases page](https://github.com)
-2. Drop it in your server's `plugins/` folder
-3. Restart the server
+Currently made for **Paper 1.21.x** with **Java 21+**.
 
-Requires Paper (or a Paper fork) 1.21.x and Java 21+.
+## Planned
 
-## Building from source
+Support for more server platforms is planned:
+
+- Purpur
+- Fabric
+- Folia
+- Pufferfish
+- Spigot
+
+## Building
 
 ```bash
-git clone https://github.com
+git clone https://github.com/arkhamology/grace.git
 cd grace
 mvn package
 ```
 
-The built jar will be at `target/grace-1.0.0.jar`.
-
-## Contributing
-
-Issues and PRs are welcome. If you're adding a feature, open an issue first so we're on the same page before you put the work in.
+The jar will be in `target/`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT — see [`LICENSE`](LICENSE).
+
+---
+
+<div align="center">
+
+_by arkhamology <3_
+
+</div>
